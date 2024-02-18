@@ -1,0 +1,167 @@
+:root {
+    --robot: 'Roboto', sans-serif;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--robot) !important;
+}
+
+
+.navbar .nav-link {
+    color: rgb(8, 91, 88) !important;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.navbar .active {
+    text-decoration: underline;
+    text-decoration-color: rgb(8, 91, 88);
+    color: orangered !important;
+    text-decoration-thickness: 2px;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: orangered;
+    text-decoration-thickness: 2px;
+    
+   
+
+}
+.navbar-toggler{
+    color:rgb(8, 91, 88) !important ;
+    border: none;
+    outline: none;
+    font-size: 30px;
+}
+.navbar-toggler:active , .navbar-toggler:focus{
+    border: none ;
+    outline: none ;
+}
+/* ===========by using JS code=========== */
+.sticky{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 95px;
+}
+.navbar{
+    transition: 0.3s;
+    z-index: 100;
+}
+
+@media (max-width:991px) {
+    .navbar .navbar-nav{
+        background-color: rgb(2, 13, 13);
+        opacity: 0.9;
+        border-radius: 20px;
+    }
+    .navbar .nav-link{
+        color: orangered !important;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .navbar .nav-link:hover{
+        text-decoration-color:rgb(8, 91, 88) ;
+    }
+    .sticky{
+        background-color: black;
+        height: 110px;
+    }
+}
+.btn-dark{
+    text-decoration: none;
+    border: 3px solid orangered;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(8, 91, 88);
+    color: white;
+   
+}
+.btn-dark:hover{
+    background-color: transparent;
+    border: 3px solid rgb(8, 91, 88);
+    color: rgb(8, 91, 88);
+}
+
+hr{
+    color: black;
+
+}
+
+
+/* .about img{
+    filter: drop-shadow(10px 10px 10px rgb(41, 38, 39));
+} */
+.skills .container{
+    margin-top: 100px !important;
+}
+/* .card{
+    filter: drop-shadow( 6px 6px  );
+ 
+} */
+.odd{
+    background-color: white;
+    border: 2px solid orange;
+    
+
+}
+.odd .progress-bar{
+    background-color: orange;
+    color: black;
+
+   
+}
+.even{
+    border: 2px solid rgb(8, 91, 88);
+   
+
+}
+.even .progress-bar{
+    background-color: rgb(8, 91, 88);
+}
+.odd i{
+    color: rgb(34, 98, 5);
+}
+.even i{
+    color:crimson;
+}
+
+.education .container{
+    margin-top: 100px;
+}
+.education .container .row{
+    margin-top: 50px;
+}
+.education .container .row .col2{
+    margin-top: 70px;
+}
+.education .container .row ul li{
+    line-height: 2;
+    /* margin-left: 10px; */
+}
+.education .container .row {
+    line-height: 2;
+    
+}
+.education .container .row h2{
+    color: rgb(8, 91, 88);
+}
+.education .container .row h4{
+    color: orangered;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.education .container .row .img1{
+    margin-top: 50px !important;
+}
+.education .container .row .img2{
+    margin-top: 50px !important;
+}
+
